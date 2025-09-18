@@ -1,6 +1,6 @@
 # Dijital Sinyal İşleme (DSP) Projeleri
 
-Bu depo, Dijital Sinyal İşleme alanındaki çeşitli projeler ve problemler için bir MATLAB betik koleksiyonu içerir. Her betik, örnekleme, Fourier dönüşümleri, filtre tasarımı ve ses sinyali analizi gibi DSP'deki temel bir kavramı veya algoritmayı gösterir.
+Bu depo, Dijital Sinyal İşleme alanındaki çeşitli projeler ve problemler için bir MATLAB betik koleksiyonu içerir. Bunlar, Polonya'da **Erasmus+ bursuyla** gittiğim **AGH Bilim ve Teknoloji Üniversitesi**'ndeki bir ders sırasında laboratuvar ödevi olarak tamamlanmıştır. Her betik, örnekleme, Fourier dönüşümleri, filtre tasarımı ve ses sinyali analizi gibi DSP'deki temel bir kavramı veya algoritmayı gösterir.
 
 ## Ön Koşullar
 
@@ -11,7 +11,7 @@ Bu betikleri çalıştırmak için çalışan bir **MATLAB** kurulumuna sahip ol
 Bu depoda bulunan her MATLAB betiğinin kısa bir özeti aşağıdadır.
 
 ### `problem1_2.m`
-Bu betik, frekans alanında **aliasing** kavramını gösterir. Örneklemeden sonra nasıl aynı göründüklerini göstermek için, birbirinin takma adı olan frekanslar da dahil olmak üzere farklı frekanslara sahip birden fazla sinüs dalgasını çizer. Betik ayrıca, sinyalleri ses olarak çalmak için bir bölüm de içerir.
+Bu betik, frekans alanında **aliasing** kavramını gösterir. Örneklemeden sonra nasıl aynı göründüklerini göstermek için, birbirinin takma adı olan frekanslar da dahil olmak üzere farklı frekanslara sahip birden fazla sinüs dalgasını çizer. Betik ayrıca, sinyalleri ses olarak çalmak için bir bölüm içerir.
 
 ### `problem2_3.m`
 Bu betik, **frekans modülasyonu** ve **cıvıltı sinyali** üretimine odaklanır. Zamanla değişen frekanslı bir sinyal oluşturmak için üstel bir fonksiyon kullanır ve `pspectrum` kullanarak sinyalin güç spektrumunu görselleştirir.
